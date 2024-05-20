@@ -10,5 +10,5 @@ export interface PizzaItemProps {
   onCreate: (item: Pizza) => void;
   onUpdate: (item: Pizza) => void;
   onDelete: (id: number) => void;
-  error?: string;
+  error: string;
 }
